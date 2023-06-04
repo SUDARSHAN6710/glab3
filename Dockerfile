@@ -5,6 +5,6 @@ RUN pip install pandas
 RUN pip install tensorflow
 RUN pip install scikit-learn
 RUN pip install matplotlib
-RUN pip install seaboern
+RUN pip install seaborn
 COPY ann.py ./
 CMD [ "python", "./ann.py"]
